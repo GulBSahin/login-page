@@ -16,25 +16,27 @@
     <div id="section">
         <h1> Sign In With </h1>
         <div id="container">
-            <div id="facebook_btn">
-                
-                    <class class="fab fa-facebook-square"></class>
-                Facebook
+            <div id="facebook_btn">              
+               <a href="https://www.facebook.com"><class class="fab fa-facebook-square"></class> Facebook</a>
             </div>
             <div id="google_btn">
-               <div id="google_logo" ><img src="./images/googlelogo.png" alt="googlelogo" width="30">
+               <div id="google_logo" >
+                <a href="https://google.com"><img src="./images/googlelogo.png" alt="googlelogo" width="30"></a>   
+               
                </div>
-                Google
+               <a href="https://www.google.com" id="google_text">Google</a>
             </div>
         </div>
         <div id=account>
+            <form action="result.html">
             <label for="username">Username</label> <br>
             <input type="text" name="username" id="username" class="account_input">
             
             <label for="Password">Password  <span> Forgot?</span> </label> <br>
-            <input type="password" name="Password" id="username" class="account_input">
+            <input type="password" name="Password" id="Password" class="account_input">
 
             <input type="submit" value="Sign in" class="account_submit">
+            </form>
         </div>
         <p>Not a member yet? <u> Sign up now </u></p>
     </div> 
