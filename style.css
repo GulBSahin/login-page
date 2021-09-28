@@ -44,7 +44,12 @@
     padding:15px;
     font-size: 25px;
     font-family: 'PT Sans Narrow', sans-serif;
-
+    display:flex;
+    justify-content: center;
+    color: #555555;
+}
+#google_logo {
+    margin-right: 10px;
 }
 #container {
     display:flex;
